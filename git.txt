@@ -1,0 +1,38 @@
+1.what is version control and its type?
+
+The version control system manages changes to a collection of information such as documents, project code, etc.
+
+There are two major types of version control models, namely:
+
+a.Centralized  :-The centralized version control system is working as a client-server model. Here, we have one centralized server and a localized repository filesystem that is accessible by a number of clients.
+
+b. Distributed :-In the distributed version control system model, all developers have their own local file system, and changes between file systems are implemented locally on their machines. 
+
+
+
+2.difference between git and github.
+
+Git is a distributed version control system and a tool to manage your project source code history. Git will help you keep track of the different versions of your project, but it tracks those changes locally on your computer; only you can see your project code and all the changes and revisions made to your project code.
+
+GitHub, on the other hand, is a web-based, git file hosting service that enables you to upload your project code, along with its changes and revisions, so you can showcase/share your projects and files with others.
+
+
+
+3.what is git init?
+
+The git init command is the first command that you will run on Git. The git init command is used to create a new blank repository. It is used to make an existing project as a Git project. Several Git commands run inside the repository, but init command can be run outside of the repository.
+
+
+4.what is git clone?
+
+The git clone is a command-line utility which is used to make a local copy of a remote repository. It accesses the repository through a remote URL.
+
+Usually, the original repository is located on a remote server, often from a Git service like GitHub, Bitbucket, or GitLab. The remote repository URL is referred to the origin.
+
+
+5.what is git commit?
+It is used to record the changes in the repository. It is the next command after the git add. Every commit contains the index data and the commit message. Every commit forms a parent-child relationship. When we add a file in Git, it will take place in the staging area. A commit command is used to fetch updates from the staging area to the repository.
+
+
+6.what is git repository?
+he repository is like a data structure used by VCS to store metadata for a set of files and directories. It contains the collection of the files as well as the history of changes made to those files. Repository in Git is considered as your project folder. A repository has all the project-related data. Distinct projects have distinct repositories.
